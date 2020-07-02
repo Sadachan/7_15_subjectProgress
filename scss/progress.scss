@@ -1,0 +1,85 @@
+.pg-ttl{
+  text-align:center;
+}
+
+.progress-table{
+  display: block;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  border: solid 1px black;
+  border-collapse: collapse;
+  margin:0 auto;
+}
+.status-box{
+  border:none;
+  &:focus{
+    outline:none;
+  }
+}
+.taskname-cell:hover{
+  cursor:pointer;
+}
+
+.update-btn:hover{
+  cursor:pointer;
+}
+
+.message-box{
+  width:95%;
+  height:45px;
+  margin:0 auto;
+  border:1.5px solid #4FC3F7;
+  border-radius:10px;
+  margin-bottom:10px;
+  color:#29B6F6;
+  padding:10px;
+  box-sizing:border-box;
+  margin-bottom:30px;
+}
+
+.color-mass:hover{
+  cursor:pointer;
+}
+
+.color-select{
+  width:95%;
+  margin:0 auto;
+}
+
+hr{
+  width:95%;
+  margin:0 auto;
+  margin-bottom:10px;
+}
+
+.square{
+  display:inline-block;
+  width:16px;
+  height:16px;
+  margin-left:3px;
+  margin-bottom:-3px;
+}
+.red-square{
+  border:1px solid #E65100;
+  background-color:#E65100;
+}
+.green-square{
+  border:1px solid #00E676;
+  background-color:#00E676;
+}
+.white-square{
+  border:1px solid #000;
+}
+.new-deadline{
+  background-color:#E65100!important;
+}
+.new-startdate{
+  background-color:#00E676!important;
+}
+.charge{
+  border:none;
+  &:focus{
+    outline:none;
+  }
+}
