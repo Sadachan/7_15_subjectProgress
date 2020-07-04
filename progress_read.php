@@ -172,18 +172,18 @@
           for (var i = 0; i < classVals.length; i++) {
             deadlineForUpdate=classVals[1]
           }
-          alert(deadlineForUpdate)
+          //alert(deadlineForUpdate)
           $(this).parent().find('.deadlineforupdate').val(deadlineForUpdate)
         //もし新しい開始日があれば新しい開始日をセット
         }
         if(newstartdate=='on'){
-          alert('b')
+          //alert('b')
           let classVal=$('.new-startdate').attr('class')
           let classVals=classVal.split(' ')
           for (var i = 0; i < classVals.length; i++) {
             startdateForUpdate=classVals[1]
           }
-          alert(startdateForUpdate)
+          //alert(startdateForUpdate)
           $(this).parent().find('.startdateforupdate').val(startdateForUpdate)
         }
         //もし新しい納期がなければ現在の納期をセット
@@ -193,7 +193,7 @@
           for (var i = 0; i < classVals.length; i++) {
             deadlineForUpdate=classVals[1]
           }
-          alert(deadlineForUpdate)
+          //alert(deadlineForUpdate)
           $(this).parent().find('.deadlineforupdate').val(deadlineForUpdate)
         }
         //もし新しい開始日がなければ現在の開始日をセット
@@ -203,7 +203,7 @@
           for (var i = 0; i < classVals.length; i++) {
             startdateForUpdate=classVals[1]
           }
-          alert(startdateForUpdate)
+          //alert(startdateForUpdate)
           $(this).parent().find('.startdateforupdate').val(startdateForUpdate)
         }
       })
